@@ -1,4 +1,4 @@
-```markdown
+
 # Candidate Search API — QA Challenge Submission
 
 This repository contains my complete submission for Phase 2 of the SV QA Challenge. 
