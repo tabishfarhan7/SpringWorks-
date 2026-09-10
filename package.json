@@ -1,0 +1,20 @@
+{
+  "name": "candidate-search-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:api": "jest tests/api.test.js",
+    "test:ui": "npx playwright test tests/ui.spec.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "jest": "^30.5.1",
+    "supertest": "^7.2.2"
+  }
+}
